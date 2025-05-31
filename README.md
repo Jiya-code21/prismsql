@@ -1,38 +1,38 @@
-📊 PrismSQL
-PrismSQL is a simple Node.js project designed to demonstrate how to connect a Node.js application to a MySQL database using Prisma ORM. It serves as a foundational example for beginners to understand the integration of Prisma with MySQL.
+-> 📊 PrismSQL
+-> PrismSQL is a simple Node.js project designed to demonstrate how to connect a Node.js application to a MySQL database using Prisma ORM. It serves as a foundational example for beginners to understand the integration of Prisma with MySQL.
 
-🚀 Features
-Prisma ORM Integration: Utilizes Prisma for database schema management and querying.
+->🚀 Features
+->Prisma ORM Integration: Utilizes Prisma for database schema management and querying.
 
-MySQL Database Connection: Connects to a MySQL database to perform basic operations.
+->MySQL Database Connection: Connects to a MySQL database to perform basic operations.
 
-Modular Code Structure: Organized codebase for clarity and ease of understanding.
+->Modular Code Structure: Organized codebase for clarity and ease of understanding.
 
-🛠️ Getting Started
+->🛠️ Getting Started
 Prerequisites
 Node.js (v14 or above)
 
-MySQL installed and running
+->MySQL installed and running
 
-npm (Node Package Manager)
+->npm (Node Package Manager)
 
-Installation
-Clone the repository:
+->Installation
+->Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/Jiya-code21/prismsql.git
-cd prismsql
-Install dependencies:
+->bash
+->Copy code
+->git clone https://github.com/Jiya-code21/prismsql.git
+->cd prismsql
+->Install dependencies:
 
-bash
-Copy code
-npm install
-Set up the .env file:
+->bash
+->Copy code
+->npm install
+->Set up the .env file:
 
-Create a .env file in the root directory and add your database connection string:
+->Create a .env file in the root directory and add your database connection string:
 
-env
+->env
 Copy code
 DATABASE_URL="mysql://<username>:<password>@localhost:3306/<database_name>"
 Replace <username>, <password>, and <database_name> with your MySQL credentials.
